@@ -1,35 +1,37 @@
+https://api.myjson.com/bins/1c7mav
+
 [
-{"id":1, "title":"Wake Up","isDone":false},
-{"id":2, "title":"Eat Breakfast","isDone":false},
-{"id":3, "title":"Get dressed","isDone":false},
-{"id":4, "title":"Buy coffee","isDone":false},
-{"id":5, "title":"Going To Work","isDone":false}
+{"id":1, "task":"Wake Up","isDone":true},
+{"id":2, "task":"Eat Breakfast","isDone":true},
+{"id":3, "task":"Get dressed","isDone":false},
+{"id":4, "task":"Buy coffee","isDone":false},
+{"id":5, "task":"Going To Work","isDone":false}
 ]
 
 [
   {
     "id": 1,
-    "title": "Wake Up",
+    "task": "Wake Up",
     "isDone": true
   },
   {
     "id": 2,
-    "title": "Eat Breakfast",
+    "task": "Eat Breakfast",
     "isDone": true
   },
   {
     "id": 3,
-    "title": "Get dressed",
+    "task": "Get dressed",
     "isDone": false
   },
   {
     "id": 4,
-    "title": "Buy coffee",
+    "task": "Buy coffee",
     "isDone": false
   },
   {
     "id": 5,
-    "title": "Going To Work",
+    "task": "Going To Work",
     "isDone": false
   }
 ]
