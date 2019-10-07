@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <label>New Task</label>
+      <input type="text" v-model="newTask" />
+      <button @click="add(newTask)">Add</button>
+      <ul style="list-style-type: decimal">
+        <li
+          v-for="task in tasks"
+          :key="task.id"
+          :style="[task.isDone ? {'text-decoration' : 'line-through','color':'red'}:{'text-decoration' : ''}]"
+        >
+          <input type="checkbox" v-model="task.isDone" />
+          {{ task.title }}
+        </li>
+      </ul>
+      <hr />
+      <p>Number of remaining tasks is: {{ remaining }}</p>
+    </div>
+    <script>
+      var vue = new Vue({
+        el: "#app",
+        data: {
+          newTask: "",
+          tasks: [
+            { id: 1, title: "Wake Up", isDone: true },
+            { id: 2, title: "Eat Breakfast", isDone: true },
+            { id: 3, title: "Get dressed", isDone: false },
+            { id: 4, title: "Buy coffee", isDone: false },
+            { id: 5, title: "Going To Work", isDone: false }
+          ]
+        },
+        methods: {
+          add(newTask) {
+            this.tasks.push({
+              id: this.tasks.length + 1,
+              title: newTask,
+              isDone: false
+            });
+            this.newTask = "";
+          }
+        },
+        computed: {
+          remaining() {
+            return this.tasks.filter(task => !task.isDone).length;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

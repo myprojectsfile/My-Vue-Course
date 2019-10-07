@@ -1,0 +1,26 @@
+https://api.myjson.com/bins/1c7mav
+
+          tasks: [
+            { id: 1, title: "Wake Up", isDone: true },
+            { id: 2, title: "Eat Breakfast", isDone: true },
+            { id: 3, title: "Get dressed", isDone: false },
+            { id: 4, title: "Buy coffee", isDone: false },
+            { id: 5, title: "Going To Work", isDone: false }
+          ]
+
+===========================
+
+add(newTask) {
+            this.tasks.push({
+              id: this.tasks.length + 1,
+              title: newTask,
+              isDone: false
+            });
+          }
+
+===========================
+:style="[task.isDone ? {'text-decoration' : 'line-through'}:{'text-decoration' : ''}]"
+===========================
+<input type="checkbox" v-model="task.isDone" />
+===========================
+

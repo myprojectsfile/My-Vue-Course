@@ -1,46 +1,48 @@
-nowadays more and more developers using javascript frameworks like angular , react or vue
-let's go to introduce vue
-Vue is Performant progressive javascript framework for building user interfaces and helps you create a more maintainable and testable codebase
+Nowadays more and more developers using JavaScript frameworks like Angular, react or Vue
+So, what is VUE?
+Vue is Performant progressive JavaScript framework for building user interfaces and helps you create a more maintainable and testable codebase
 
-it's Designed to be incrementally adoptable
+It's Designed to be incrementally adoptable
 Easy integration with other libraries or existing projects
-And It's capable of powering Single-Page Applications when used in combination with modern tooling and supporting libraries (such as Vue-Router, Vuex, etc ...)
+And It's capable of powering Single-Page Applications when used in combination with modern tooling and supporting libraries (such as Vue-Router, Vuex, etc.)
 
 
-Next, we take a look at vue in action by building a todo task manager page,ok let's go
+Next, we look at Vue in action by building a to-do task manager page, ok let's go
 ------------------------
-In the following, Let's take a look at some of the Pros of Vue
+In the following, Let's look at some of the Pros of Vue
 
 Small Size
 One of the most significant features is its small size. Vue weighs only 18 KB after gzipping
 
 Ease of understanding and development
-The advantage with Vue is that it enables development of large scale templates. Which not only makes it easier for programmers but also saves a lot of time. Due to its uncomplicated structure very less time is spent on searching blocks containing errors.
+The advantage with Vue is that it enables development of large-scale templates. Which not only makes it easier for programmers but also saves a lot of time. Due to its uncomplicated structure very, less time is spent on searching blocks containing errors.
 
 Simple Integration
-Unlike other Javascript frameworks, Vue.js useful both for building entire single page applications and for contributing components into existing apps.It has the ability to contain a component’s structure, logic and style all in one file which in turn makes it very simple to create flexible components which can be reused in other projects. 
+Unlike other JavaScript frameworks, Vue is useful both for building entire single page applications and for contributing components into existing apps. It can contain a component’s structure, logic and style all in one file which in turn makes it very simple to create flexible components which can be reused in other projects. 
 
 
 Comprehensive documentation
-Vue has a very thorough and well-written documentation. For a beginner to write their first application, they just have to know some basic Javascript and HTML  and then they can complete halfway of the application
+Vue has a very thorough and well-written documentation. For a beginner to write their first application, they just must know some basic JavaScript and HTML and then they can complete halfway of the application
+
 
 
 Flexibility
-If a user wants to write a quick app which will run straight from the browser, then Vue.js can really help you. It can even handle more sophisticated apps with JSX, ES6, routing and bundling. This flexibility makes it easy to switch to Vue because developers who have experience with React, Angular and JS framework would find Vue’s design very familiar.
+If a user wants to write a quick app which will run straight from the browser, then Vue can really help you. It can even handle more sophisticated apps with JSX, ES6, routing and bundling. This flexibility makes it easy to switch to Vue because developers who have experience with React, Angular and JS framework would find Vue’s design very familiar.
 
 Reactivity
-One of the best features of VueJS is its reactivity. Data binding between HTML and JS code has never been easier. Vue handles two-way reactive data-binding like a charm. When data is changed, the DOM is also changed accordingly. It’s perfect for SPAs. It’s perfect for any application that requires real-time updates.
+One of the best features of Vue is its reactivity. Data binding between HTML and JS code has never been easier. Vue handles two-way reactive data-binding like a charm. When data is changed, the DOM is also changed accordingly. It’s perfect for SPAs. It’s perfect for any application that requires real-time updates.
 
 
-Powerfull CLI
-Vue Cli makes life of developers much easier.Final version of cli, has a Powerfull GUI, Plugin support, Instant Prototyping and a much easier Webpack configuration.
+Powerful CLI
+Vue CLI makes life of developers much easier. Final version of cli, has a Powerful GUI, Plugin support, Instant Prototyping and a much easier Webpack configuration.
 
 TypeScript Support
 Vue has a native support for TypeScript. The team is adding new features and improvements with each update
 
 
 Browser devtools extensions
-Vue team has released some really good browser devtools extensions for their framework. They let programmers check the current state of Vuex, components, views, manually change particular data or even take a deeper look at events 
+Vue team has released some good browser devtools extensions for their framework. They let programmers check the current state of Vuex, components, views, manually change data or even take a deeper look at events 
 
 --------------------
-All of these advantages, have made the vue framework increasingly popular. On this comparative chart you can see the trend of growing of github stars of the three most popular javascript framework, angular, react and vue
+All these advantages, have made the Vue framework increasingly popular. On this comparative chart you can see the trend of growing of GitHub stars of the three most popular JavaScript framework, angular, react and Vue
+
